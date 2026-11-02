@@ -1,0 +1,1501 @@
+die_id,derivative,actual_error_type,actual_has_error,detected_error_types,rule_violation_count,rule_findings
+MCU-000691,MCU-A,none,False,[],0,[]
+MCU-001729,MCU-A,none,False,[],0,[]
+MCU-008283,MCU-C,none,False,[],0,[]
+MCU-004616,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-000612,MCU-A,none,False,[],0,[]
+MCU-004588,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006245,MCU-A,none,False,[],0,[]
+MCU-006396,MCU-B,none,False,[],0,[]
+MCU-008198,MCU-C,none,False,[],0,[]
+MCU-005261,MCU-A,none,False,[],0,[]
+MCU-006745,MCU-B,none,False,[],0,[]
+MCU-006624,MCU-B,none,False,[],0,[]
+MCU-007627,MCU-C,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 128, 'expected': 0}]"
+MCU-003917,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007080,MCU-B,none,False,[],0,[]
+MCU-007487,MCU-B,none,False,[],0,[]
+MCU-002859,MCU-A,none,False,[],0,[]
+MCU-000580,MCU-A,none,False,[],0,[]
+MCU-001041,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 27, 'expected': 255}]"
+MCU-007265,MCU-B,none,False,[],0,[]
+MCU-005265,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000503,MCU-A,none,False,[],0,[]
+MCU-006853,MCU-B,none,False,[],0,[]
+MCU-001111,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 8192, 'expected': 0}]"
+MCU-006421,MCU-B,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 1, 'expected': 0}]"
+MCU-003091,MCU-A,none,False,[],0,[]
+MCU-001331,MCU-A,none,False,[],0,[]
+MCU-004983,MCU-A,none,False,[],0,[]
+MCU-000121,MCU-A,none,False,[],0,[]
+MCU-005403,MCU-A,none,False,[],0,[]
+MCU-003325,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 8, 'expected': 0}]"
+MCU-001947,MCU-A,none,False,[],0,[]
+MCU-003445,MCU-A,none,False,[],0,[]
+MCU-002756,MCU-A,none,False,[],0,[]
+MCU-007469,MCU-B,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 90, 'expected': 63}]"
+MCU-006399,MCU-B,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 1, 'expected': 0}]"
+MCU-005964,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-000952,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 65536, 'expected': 0}]"
+MCU-001145,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 256, 'expected': 0}]"
+MCU-000650,MCU-A,none,False,[],0,[]
+MCU-005269,MCU-A,none,False,[],0,[]
+MCU-002202,MCU-A,none,False,[],0,[]
+MCU-001107,MCU-A,none,False,[],0,[]
+MCU-004954,MCU-A,none,False,[],0,[]
+MCU-006202,MCU-A,none,False,[],0,[]
+MCU-000803,MCU-A,none,False,[],0,[]
+MCU-007940,MCU-C,none,False,[],0,[]
+MCU-003528,MCU-A,none,False,[],0,[]
+MCU-006499,MCU-B,none,False,[],0,[]
+MCU-006741,MCU-B,none,False,[],0,[]
+MCU-002148,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002632,MCU-A,none,False,[],0,[]
+MCU-005893,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-007712,MCU-C,none,False,[],0,[]
+MCU-002626,MCU-A,none,False,[],0,[]
+MCU-004702,MCU-A,none,False,[],0,[]
+MCU-002991,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-003350,MCU-A,none,False,[],0,[]
+MCU-002358,MCU-A,none,False,[],0,[]
+MCU-006740,MCU-B,none,False,[],0,[]
+MCU-004068,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-005750,MCU-A,none,False,[],0,[]
+MCU-003925,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000979,MCU-A,none,False,[],0,[]
+MCU-004673,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-001920,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 115, 'expected': 255}]"
+MCU-003319,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006074,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-005426,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 210, 'expected': 255}]"
+MCU-008402,MCU-C,none,False,[],0,[]
+MCU-001361,MCU-A,none,False,[],0,[]
+MCU-002413,MCU-A,none,False,[],0,[]
+MCU-008354,MCU-C,none,False,[],0,[]
+MCU-003946,MCU-A,none,False,[],0,[]
+MCU-007898,MCU-C,trim_field_corrupt,True,[],0,[]
+MCU-005441,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-002467,MCU-A,none,False,[],0,[]
+MCU-001215,MCU-A,none,False,[],0,[]
+MCU-005208,MCU-A,none,False,[],0,[]
+MCU-000613,MCU-A,none,False,[],0,[]
+MCU-008250,MCU-C,none,False,[],0,[]
+MCU-000113,MCU-A,none,False,[],0,[]
+MCU-006166,MCU-A,none,False,[],0,[]
+MCU-002603,MCU-A,none,False,[],0,[]
+MCU-004788,MCU-A,none,False,[],0,[]
+MCU-006980,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004855,MCU-A,none,False,[],0,[]
+MCU-001209,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002379,MCU-A,none,False,[],0,[]
+MCU-004633,MCU-A,none,False,[],0,[]
+MCU-006115,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 16384, 'expected': 0}]"
+MCU-001844,MCU-A,none,False,[],0,[]
+MCU-005272,MCU-A,none,False,[],0,[]
+MCU-006920,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001309,MCU-A,none,False,[],0,[]
+MCU-001191,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 524288, 'expected': 0}]"
+MCU-003352,MCU-A,none,False,[],0,[]
+MCU-002298,MCU-A,none,False,[],0,[]
+MCU-002713,MCU-A,none,False,[],0,[]
+MCU-001927,MCU-A,none,False,[],0,[]
+MCU-006799,MCU-B,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 1, 'expected': 0}]"
+MCU-003088,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-008252,MCU-C,none,False,[],0,[]
+MCU-005222,MCU-A,none,False,[],0,[]
+MCU-007924,MCU-C,none,False,[],0,[]
+MCU-004097,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-005147,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-005302,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001861,MCU-A,none,False,[],0,[]
+MCU-000281,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-003881,MCU-A,none,False,[],0,[]
+MCU-001328,MCU-A,none,False,[],0,[]
+MCU-008269,MCU-C,rdp_missing_automotive,True,['rdp_missing_automotive'],1,"[{'rule': 'RDP_mismatch', 'error_type': 'rdp_missing_automotive', 'actual': 0, 'expected': 1}]"
+MCU-006971,MCU-B,trim_field_corrupt,True,[],0,[]
+MCU-004389,MCU-A,none,False,[],0,[]
+MCU-001800,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 62, 'expected': 255}]"
+MCU-004438,MCU-A,none,False,[],0,[]
+MCU-004529,MCU-A,none,False,[],0,[]
+MCU-000336,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002610,MCU-A,none,False,[],0,[]
+MCU-003978,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002463,MCU-A,none,False,[],0,[]
+MCU-000208,MCU-A,none,False,[],0,[]
+MCU-002112,MCU-A,none,False,[],0,[]
+MCU-005606,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 1048576, 'expected': 0}]"
+MCU-000590,MCU-A,none,False,[],0,[]
+MCU-007654,MCU-C,none,False,[],0,[]
+MCU-001813,MCU-A,none,False,[],0,[]
+MCU-005188,MCU-A,none,False,[],0,[]
+MCU-008395,MCU-C,none,False,[],0,[]
+MCU-005783,MCU-A,none,False,[],0,[]
+MCU-001242,MCU-A,none,False,[],0,[]
+MCU-002523,MCU-A,none,False,[],0,[]
+MCU-006030,MCU-A,none,False,[],0,[]
+MCU-005712,MCU-A,none,False,[],0,[]
+MCU-006208,MCU-A,none,False,[],0,[]
+MCU-004620,MCU-A,none,False,[],0,[]
+MCU-004156,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 191, 'expected': 255}]"
+MCU-001287,MCU-A,none,False,[],0,[]
+MCU-001738,MCU-A,none,False,[],0,[]
+MCU-001594,MCU-A,none,False,[],0,[]
+MCU-003731,MCU-A,none,False,[],0,[]
+MCU-007161,MCU-B,none,False,[],0,[]
+MCU-007634,MCU-C,none,False,[],0,[]
+MCU-003326,MCU-A,none,False,[],0,[]
+MCU-007641,MCU-C,none,False,[],0,[]
+MCU-000326,MCU-A,none,False,[],0,[]
+MCU-002280,MCU-A,none,False,[],0,[]
+MCU-007811,MCU-C,trim_field_corrupt,True,[],0,[]
+MCU-001552,MCU-A,none,False,[],0,[]
+MCU-001235,MCU-A,none,False,[],0,[]
+MCU-003749,MCU-A,none,False,[],0,[]
+MCU-007064,MCU-B,none,False,[],0,[]
+MCU-007602,MCU-C,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 0, 'expected': 2}]"
+MCU-006764,MCU-B,none,False,[],0,[]
+MCU-002417,MCU-A,none,False,[],0,[]
+MCU-005519,MCU-A,none,False,[],0,[]
+MCU-001052,MCU-A,none,False,[],0,[]
+MCU-004819,MCU-A,none,False,[],0,[]
+MCU-000718,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-000060,MCU-A,none,False,[],0,[]
+MCU-007152,MCU-B,none,False,[],0,[]
+MCU-006590,MCU-B,none,False,[],0,[]
+MCU-001151,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 135, 'expected': 255}]"
+MCU-006468,MCU-B,none,False,[],0,[]
+MCU-002207,MCU-A,none,False,[],0,[]
+MCU-002178,MCU-A,none,False,[],0,[]
+MCU-006076,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 524288, 'expected': 0}]"
+MCU-007250,MCU-B,none,False,[],0,[]
+MCU-000020,MCU-A,none,False,[],0,[]
+MCU-001369,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002092,MCU-A,none,False,[],0,[]
+MCU-002038,MCU-A,none,False,[],0,[]
+MCU-000207,MCU-A,none,False,[],0,[]
+MCU-008108,MCU-C,none,False,[],0,[]
+MCU-003448,MCU-A,none,False,[],0,[]
+MCU-005247,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-005266,MCU-A,none,False,[],0,[]
+MCU-007300,MCU-B,none,False,[],0,[]
+MCU-002592,MCU-A,none,False,[],0,[]
+MCU-000307,MCU-A,none,False,[],0,[]
+MCU-005432,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 188, 'expected': 255}]"
+MCU-004263,MCU-A,none,False,[],0,[]
+MCU-008414,MCU-C,none,False,[],0,[]
+MCU-007453,MCU-B,none,False,[],0,[]
+MCU-004149,MCU-A,none,False,[],0,[]
+MCU-007760,MCU-C,rdp_missing_automotive,True,['rdp_missing_automotive'],1,"[{'rule': 'RDP_mismatch', 'error_type': 'rdp_missing_automotive', 'actual': 0, 'expected': 1}]"
+MCU-006883,MCU-B,none,False,[],0,[]
+MCU-008391,MCU-C,none,False,[],0,[]
+MCU-007114,MCU-B,trim_field_corrupt,True,[],0,[]
+MCU-007432,MCU-B,trim_field_corrupt,True,[],0,[]
+MCU-004611,MCU-A,none,False,[],0,[]
+MCU-003776,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-002844,MCU-A,none,False,[],0,[]
+MCU-000564,MCU-A,none,False,[],0,[]
+MCU-002518,MCU-A,none,False,[],0,[]
+MCU-001165,MCU-A,none,False,[],0,[]
+MCU-002466,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 8, 'expected': 0}]"
+MCU-001910,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 32768, 'expected': 0}]"
+MCU-004012,MCU-A,none,False,[],0,[]
+MCU-002016,MCU-A,none,False,[],0,[]
+MCU-004086,MCU-A,none,False,[],0,[]
+MCU-002313,MCU-A,none,False,[],0,[]
+MCU-007963,MCU-C,none,False,[],0,[]
+MCU-004896,MCU-A,none,False,[],0,[]
+MCU-002233,MCU-A,none,False,[],0,[]
+MCU-000985,MCU-A,none,False,[],0,[]
+MCU-000756,MCU-A,none,False,[],0,[]
+MCU-003595,MCU-A,none,False,[],0,[]
+MCU-007130,MCU-B,none,False,[],0,[]
+MCU-006010,MCU-A,none,False,[],0,[]
+MCU-001403,MCU-A,none,False,[],0,[]
+MCU-001533,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 63, 'expected': 255}]"
+MCU-000134,MCU-A,none,False,[],0,[]
+MCU-008048,MCU-C,none,False,[],0,[]
+MCU-005464,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 150, 'expected': 255}]"
+MCU-000601,MCU-A,none,False,[],0,[]
+MCU-001748,MCU-A,none,False,[],0,[]
+MCU-006139,MCU-A,none,False,[],0,[]
+MCU-005582,MCU-A,none,False,[],0,[]
+MCU-004886,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000082,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006697,MCU-B,none,False,[],0,[]
+MCU-005402,MCU-A,none,False,[],0,[]
+MCU-001233,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 8192, 'expected': 0}]"
+MCU-002840,MCU-A,none,False,[],0,[]
+MCU-005035,MCU-A,none,False,[],0,[]
+MCU-003803,MCU-A,none,False,[],0,[]
+MCU-001480,MCU-A,none,False,[],0,[]
+MCU-002384,MCU-A,none,False,[],0,[]
+MCU-002343,MCU-A,none,False,[],0,[]
+MCU-003475,MCU-A,none,False,[],0,[]
+MCU-003363,MCU-A,none,False,[],0,[]
+MCU-006246,MCU-A,none,False,[],0,[]
+MCU-003299,MCU-A,none,False,[],0,[]
+MCU-005814,MCU-A,none,False,[],0,[]
+MCU-008393,MCU-C,none,False,[],0,[]
+MCU-000852,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006713,MCU-B,none,False,[],0,[]
+MCU-001384,MCU-A,none,False,[],0,[]
+MCU-002427,MCU-A,none,False,[],0,[]
+MCU-006434,MCU-B,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 1, 'expected': 0}]"
+MCU-001609,MCU-A,none,False,[],0,[]
+MCU-000829,MCU-A,none,False,[],0,[]
+MCU-001967,MCU-A,none,False,[],0,[]
+MCU-001171,MCU-A,none,False,[],0,[]
+MCU-001115,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000157,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 2048, 'expected': 0}]"
+MCU-003399,MCU-A,none,False,[],0,[]
+MCU-006173,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 32768, 'expected': 0}]"
+MCU-003757,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 32768, 'expected': 0}]"
+MCU-007604,MCU-C,none,False,[],0,[]
+MCU-004809,MCU-A,none,False,[],0,[]
+MCU-002269,MCU-A,none,False,[],0,[]
+MCU-005119,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-003302,MCU-A,none,False,[],0,[]
+MCU-003630,MCU-A,none,False,[],0,[]
+MCU-007768,MCU-C,none,False,[],0,[]
+MCU-004831,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 256, 'expected': 0}]"
+MCU-005590,MCU-A,none,False,[],0,[]
+MCU-007334,MCU-B,none,False,[],0,[]
+MCU-004863,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 110, 'expected': 255}]"
+MCU-003156,MCU-A,none,False,[],0,[]
+MCU-002801,MCU-A,none,False,[],0,[]
+MCU-003686,MCU-A,none,False,[],0,[]
+MCU-007257,MCU-B,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 512, 'expected': 0}]"
+MCU-005038,MCU-A,none,False,[],0,[]
+MCU-006926,MCU-B,none,False,[],0,[]
+MCU-006134,MCU-A,none,False,[],0,[]
+MCU-005260,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-007291,MCU-B,none,False,[],0,[]
+MCU-008111,MCU-C,none,False,[],0,[]
+MCU-008035,MCU-C,none,False,[],0,[]
+MCU-005194,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 24, 'expected': 255}]"
+MCU-003008,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 2048, 'expected': 0}]"
+MCU-002144,MCU-A,none,False,[],0,[]
+MCU-002578,MCU-A,none,False,[],0,[]
+MCU-003222,MCU-A,none,False,[],0,[]
+MCU-003356,MCU-A,none,False,[],0,[]
+MCU-004761,MCU-A,none,False,[],0,[]
+MCU-005225,MCU-A,none,False,[],0,[]
+MCU-008131,MCU-C,none,False,[],0,[]
+MCU-000384,MCU-A,none,False,[],0,[]
+MCU-002219,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000443,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002854,MCU-A,none,False,[],0,[]
+MCU-003087,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 172, 'expected': 255}]"
+MCU-001149,MCU-A,none,False,[],0,[]
+MCU-003347,MCU-A,none,False,[],0,[]
+MCU-005003,MCU-A,none,False,[],0,[]
+MCU-002650,MCU-A,none,False,[],0,[]
+MCU-004630,MCU-A,none,False,[],0,[]
+MCU-004783,MCU-A,none,False,[],0,[]
+MCU-000464,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 14, 'expected': 255}]"
+MCU-003605,MCU-A,none,False,[],0,[]
+MCU-007155,MCU-B,none,False,[],0,[]
+MCU-004577,MCU-A,none,False,[],0,[]
+MCU-004608,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 171, 'expected': 255}]"
+MCU-005218,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002392,MCU-A,none,False,[],0,[]
+MCU-007428,MCU-B,trim_field_corrupt,True,[],0,[]
+MCU-002885,MCU-A,none,False,[],0,[]
+MCU-002003,MCU-A,none,False,[],0,[]
+MCU-005420,MCU-A,none,False,[],0,[]
+MCU-001535,MCU-A,none,False,[],0,[]
+MCU-008416,MCU-C,none,False,[],0,[]
+MCU-004830,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-000738,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-003495,MCU-A,none,False,[],0,[]
+MCU-005985,MCU-A,none,False,[],0,[]
+MCU-002241,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-001885,MCU-A,none,False,[],0,[]
+MCU-007636,MCU-C,none,False,[],0,[]
+MCU-008064,MCU-C,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 2, 'expected': 0}]"
+MCU-005070,MCU-A,none,False,[],0,[]
+MCU-007873,MCU-C,none,False,[],0,[]
+MCU-001631,MCU-A,none,False,[],0,[]
+MCU-004319,MCU-A,none,False,[],0,[]
+MCU-003416,MCU-A,none,False,[],0,[]
+MCU-004652,MCU-A,none,False,[],0,[]
+MCU-001899,MCU-A,none,False,[],0,[]
+MCU-003971,MCU-A,none,False,[],0,[]
+MCU-005867,MCU-A,none,False,[],0,[]
+MCU-004360,MCU-A,none,False,[],0,[]
+MCU-008238,MCU-C,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 0, 'expected': 2}]"
+MCU-000096,MCU-A,none,False,[],0,[]
+MCU-000239,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-005470,MCU-A,none,False,[],0,[]
+MCU-001946,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 36, 'expected': 255}]"
+MCU-003606,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000851,MCU-A,none,False,[],0,[]
+MCU-002486,MCU-A,none,False,[],0,[]
+MCU-002095,MCU-A,none,False,[],0,[]
+MCU-003737,MCU-A,none,False,[],0,[]
+MCU-007107,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-003137,MCU-A,none,False,[],0,[]
+MCU-004250,MCU-A,none,False,[],0,[]
+MCU-004110,MCU-A,none,False,[],0,[]
+MCU-004315,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 16, 'expected': 0}]"
+MCU-008403,MCU-C,none,False,[],0,[]
+MCU-008052,MCU-C,none,False,[],0,[]
+MCU-007893,MCU-C,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 37, 'expected': 255}]"
+MCU-002690,MCU-A,none,False,[],0,[]
+MCU-005383,MCU-A,none,False,[],0,[]
+MCU-005944,MCU-A,none,False,[],0,[]
+MCU-002868,MCU-A,none,False,[],0,[]
+MCU-000707,MCU-A,none,False,[],0,[]
+MCU-002135,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-007517,MCU-B,none,False,[],0,[]
+MCU-006283,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001340,MCU-A,none,False,[],0,[]
+MCU-007385,MCU-B,none,False,[],0,[]
+MCU-004662,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-007232,MCU-B,none,False,[],0,[]
+MCU-007556,MCU-B,none,False,[],0,[]
+MCU-000331,MCU-A,none,False,[],0,[]
+MCU-001116,MCU-A,none,False,[],0,[]
+MCU-003544,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 154, 'expected': 255}]"
+MCU-005694,MCU-A,none,False,[],0,[]
+MCU-001473,MCU-A,none,False,[],0,[]
+MCU-006144,MCU-A,none,False,[],0,[]
+MCU-000033,MCU-A,none,False,[],0,[]
+MCU-002274,MCU-A,none,False,[],0,[]
+MCU-007029,MCU-B,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 3, 'expected': 63}]"
+MCU-003750,MCU-A,none,False,[],0,[]
+MCU-000139,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-005610,MCU-A,none,False,[],0,[]
+MCU-000642,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 32, 'expected': 0}]"
+MCU-001002,MCU-A,none,False,[],0,[]
+MCU-002449,MCU-A,none,False,[],0,[]
+MCU-002194,MCU-A,none,False,[],0,[]
+MCU-003648,MCU-A,none,False,[],0,[]
+MCU-007471,MCU-B,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 1, 'expected': 0}]"
+MCU-003938,MCU-A,none,False,[],0,[]
+MCU-000604,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-003054,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 64, 'expected': 0}]"
+MCU-000463,MCU-A,none,False,[],0,[]
+MCU-000238,MCU-A,none,False,[],0,[]
+MCU-007037,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004241,MCU-A,none,False,[],0,[]
+MCU-004972,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 64, 'expected': 0}]"
+MCU-001824,MCU-A,none,False,[],0,[]
+MCU-000089,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 64, 'expected': 255}]"
+MCU-006032,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-008009,MCU-C,none,False,[],0,[]
+MCU-007877,MCU-C,none,False,[],0,[]
+MCU-000092,MCU-A,none,False,[],0,[]
+MCU-006975,MCU-B,none,False,[],0,[]
+MCU-000397,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006410,MCU-B,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 1, 'expected': 0}]"
+MCU-008409,MCU-C,none,False,[],0,[]
+MCU-003691,MCU-A,none,False,[],0,[]
+MCU-001336,MCU-A,none,False,[],0,[]
+MCU-001817,MCU-A,none,False,[],0,[]
+MCU-006837,MCU-B,none,False,[],0,[]
+MCU-002536,MCU-A,none,False,[],0,[]
+MCU-007151,MCU-B,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 251, 'expected': 63}]"
+MCU-006604,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000732,MCU-A,none,False,[],0,[]
+MCU-005333,MCU-A,none,False,[],0,[]
+MCU-004742,MCU-A,none,False,[],0,[]
+MCU-003807,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001123,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-005862,MCU-A,none,False,[],0,[]
+MCU-003812,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 244, 'expected': 255}]"
+MCU-005684,MCU-A,none,False,[],0,[]
+MCU-006699,MCU-B,none,False,[],0,[]
+MCU-000260,MCU-A,none,False,[],0,[]
+MCU-002170,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 65536, 'expected': 0}]"
+MCU-003682,MCU-A,none,False,[],0,[]
+MCU-004670,MCU-A,none,False,[],0,[]
+MCU-004684,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-003106,MCU-A,none,False,[],0,[]
+MCU-006721,MCU-B,none,False,[],0,[]
+MCU-008181,MCU-C,rdp_missing_automotive,True,['rdp_missing_automotive'],1,"[{'rule': 'RDP_mismatch', 'error_type': 'rdp_missing_automotive', 'actual': 0, 'expected': 1}]"
+MCU-006109,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-005666,MCU-A,none,False,[],0,[]
+MCU-001587,MCU-A,none,False,[],0,[]
+MCU-000175,MCU-A,none,False,[],0,[]
+MCU-005526,MCU-A,none,False,[],0,[]
+MCU-000360,MCU-A,none,False,[],0,[]
+MCU-005975,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007178,MCU-B,none,False,[],0,[]
+MCU-004323,MCU-A,none,False,[],0,[]
+MCU-002423,MCU-A,none,False,[],0,[]
+MCU-007329,MCU-B,trim_field_corrupt,True,[],0,[]
+MCU-008253,MCU-C,trim_field_corrupt,True,[],0,[]
+MCU-001774,MCU-A,none,False,[],0,[]
+MCU-005539,MCU-A,none,False,[],0,[]
+MCU-001276,MCU-A,none,False,[],0,[]
+MCU-007186,MCU-B,none,False,[],0,[]
+MCU-003171,MCU-A,none,False,[],0,[]
+MCU-006447,MCU-B,none,False,[],0,[]
+MCU-003274,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-005323,MCU-A,none,False,[],0,[]
+MCU-001302,MCU-A,none,False,[],0,[]
+MCU-002562,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000133,MCU-A,none,False,[],0,[]
+MCU-001599,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-005125,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007335,MCU-B,none,False,[],0,[]
+MCU-000715,MCU-A,none,False,[],0,[]
+MCU-006579,MCU-B,none,False,[],0,[]
+MCU-002899,MCU-A,none,False,[],0,[]
+MCU-001268,MCU-A,none,False,[],0,[]
+MCU-005145,MCU-A,none,False,[],0,[]
+MCU-006409,MCU-B,none,False,[],0,[]
+MCU-006682,MCU-B,none,False,[],0,[]
+MCU-007100,MCU-B,none,False,[],0,[]
+MCU-007078,MCU-B,none,False,[],0,[]
+MCU-008369,MCU-C,none,False,[],0,[]
+MCU-003616,MCU-A,none,False,[],0,[]
+MCU-000915,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 32768, 'expected': 0}]"
+MCU-000434,MCU-A,none,False,[],0,[]
+MCU-006889,MCU-B,none,False,[],0,[]
+MCU-003196,MCU-A,none,False,[],0,[]
+MCU-000484,MCU-A,none,False,[],0,[]
+MCU-007732,MCU-C,none,False,[],0,[]
+MCU-000380,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-003010,MCU-A,none,False,[],0,[]
+MCU-000988,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 164, 'expected': 255}]"
+MCU-006451,MCU-B,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 65536, 'expected': 0}]"
+MCU-000288,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000924,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 256, 'expected': 0}]"
+MCU-005679,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 209, 'expected': 255}]"
+MCU-004943,MCU-A,none,False,[],0,[]
+MCU-006053,MCU-A,none,False,[],0,[]
+MCU-005616,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 131072, 'expected': 0}]"
+MCU-005078,MCU-A,none,False,[],0,[]
+MCU-004353,MCU-A,none,False,[],0,[]
+MCU-000486,MCU-A,none,False,[],0,[]
+MCU-002545,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-005802,MCU-A,none,False,[],0,[]
+MCU-000474,MCU-A,none,False,[],0,[]
+MCU-004810,MCU-A,none,False,[],0,[]
+MCU-006777,MCU-B,none,False,[],0,[]
+MCU-006648,MCU-B,none,False,[],0,[]
+MCU-005352,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 20, 'expected': 255}]"
+MCU-002426,MCU-A,none,False,[],0,[]
+MCU-004283,MCU-A,none,False,[],0,[]
+MCU-008201,MCU-C,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 2048, 'expected': 0}]"
+MCU-007683,MCU-C,none,False,[],0,[]
+MCU-007990,MCU-C,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 162, 'expected': 255}]"
+MCU-008117,MCU-C,none,False,[],0,[]
+MCU-004818,MCU-A,none,False,[],0,[]
+MCU-008123,MCU-C,none,False,[],0,[]
+MCU-004698,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-008127,MCU-C,none,False,[],0,[]
+MCU-006597,MCU-B,none,False,[],0,[]
+MCU-003995,MCU-A,none,False,[],0,[]
+MCU-000224,MCU-A,none,False,[],0,[]
+MCU-004878,MCU-A,none,False,[],0,[]
+MCU-001857,MCU-A,none,False,[],0,[]
+MCU-001744,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000062,MCU-A,none,False,[],0,[]
+MCU-002799,MCU-A,none,False,[],0,[]
+MCU-006529,MCU-B,none,False,[],0,[]
+MCU-002661,MCU-A,none,False,[],0,[]
+MCU-001024,MCU-A,none,False,[],0,[]
+MCU-004078,MCU-A,none,False,[],0,[]
+MCU-000820,MCU-A,none,False,[],0,[]
+MCU-002612,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 2, 'expected': 0}]"
+MCU-002535,MCU-A,none,False,[],0,[]
+MCU-001943,MCU-A,none,False,[],0,[]
+MCU-004500,MCU-A,none,False,[],0,[]
+MCU-007211,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-005667,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002079,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-008345,MCU-C,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 4, 'expected': 0}]"
+MCU-006689,MCU-B,none,False,[],0,[]
+MCU-004457,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-001551,MCU-A,none,False,[],0,[]
+MCU-000246,MCU-A,none,False,[],0,[]
+MCU-004905,MCU-A,none,False,[],0,[]
+MCU-006586,MCU-B,none,False,[],0,[]
+MCU-005354,MCU-A,none,False,[],0,[]
+MCU-005675,MCU-A,none,False,[],0,[]
+MCU-007290,MCU-B,none,False,[],0,[]
+MCU-002432,MCU-A,none,False,[],0,[]
+MCU-007976,MCU-C,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004644,MCU-A,none,False,[],0,[]
+MCU-000512,MCU-A,none,False,[],0,[]
+MCU-001503,MCU-A,none,False,[],0,[]
+MCU-002459,MCU-A,none,False,[],0,[]
+MCU-006190,MCU-A,none,False,[],0,[]
+MCU-004431,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-008245,MCU-C,none,False,[],0,[]
+MCU-005901,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000903,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-003948,MCU-A,none,False,[],0,[]
+MCU-000588,MCU-A,none,False,[],0,[]
+MCU-007462,MCU-B,none,False,[],0,[]
+MCU-003494,MCU-A,none,False,[],0,[]
+MCU-006368,MCU-B,none,False,[],0,[]
+MCU-004848,MCU-A,none,False,[],0,[]
+MCU-002740,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 2, 'expected': 0}]"
+MCU-006554,MCU-B,none,False,[],0,[]
+MCU-000317,MCU-A,none,False,[],0,[]
+MCU-002691,MCU-A,none,False,[],0,[]
+MCU-002641,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 190, 'expected': 255}]"
+MCU-003309,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 15, 'expected': 255}]"
+MCU-000566,MCU-A,none,False,[],0,[]
+MCU-002583,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-004750,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002175,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-005854,MCU-A,none,False,[],0,[]
+MCU-002584,MCU-A,none,False,[],0,[]
+MCU-006431,MCU-B,none,False,[],0,[]
+MCU-008033,MCU-C,none,False,[],0,[]
+MCU-002406,MCU-A,none,False,[],0,[]
+MCU-002760,MCU-A,none,False,[],0,[]
+MCU-005657,MCU-A,none,False,[],0,[]
+MCU-008419,MCU-C,none,False,[],0,[]
+MCU-001897,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 178, 'expected': 255}]"
+MCU-004681,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006503,MCU-B,none,False,[],0,[]
+MCU-001342,MCU-A,none,False,[],0,[]
+MCU-005111,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 230, 'expected': 255}]"
+MCU-005174,MCU-A,none,False,[],0,[]
+MCU-007900,MCU-C,rdp_missing_automotive,True,['rdp_missing_automotive'],1,"[{'rule': 'RDP_mismatch', 'error_type': 'rdp_missing_automotive', 'actual': 0, 'expected': 1}]"
+MCU-006551,MCU-B,none,False,[],0,[]
+MCU-002462,MCU-A,none,False,[],0,[]
+MCU-004167,MCU-A,none,False,[],0,[]
+MCU-001484,MCU-A,none,False,[],0,[]
+MCU-007817,MCU-C,none,False,[],0,[]
+MCU-007059,MCU-B,none,False,[],0,[]
+MCU-001759,MCU-A,none,False,[],0,[]
+MCU-004021,MCU-A,none,False,[],0,[]
+MCU-003219,MCU-A,none,False,[],0,[]
+MCU-004767,MCU-A,none,False,[],0,[]
+MCU-001097,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-006978,MCU-B,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 26, 'expected': 63}]"
+MCU-006964,MCU-B,none,False,[],0,[]
+MCU-007417,MCU-B,none,False,[],0,[]
+MCU-003916,MCU-A,none,False,[],0,[]
+MCU-004800,MCU-A,none,False,[],0,[]
+MCU-004948,MCU-A,none,False,[],0,[]
+MCU-003100,MCU-A,none,False,[],0,[]
+MCU-000666,MCU-A,none,False,[],0,[]
+MCU-003308,MCU-A,none,False,[],0,[]
+MCU-000653,MCU-A,none,False,[],0,[]
+MCU-003519,MCU-A,none,False,[],0,[]
+MCU-000964,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006230,MCU-A,none,False,[],0,[]
+MCU-005034,MCU-A,none,False,[],0,[]
+MCU-007338,MCU-B,trim_field_corrupt,True,[],0,[]
+MCU-006020,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-005282,MCU-A,none,False,[],0,[]
+MCU-005156,MCU-A,none,False,[],0,[]
+MCU-000706,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001958,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 8, 'expected': 0}]"
+MCU-006595,MCU-B,none,False,[],0,[]
+MCU-000709,MCU-A,none,False,[],0,[]
+MCU-001131,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 161, 'expected': 255}]"
+MCU-005726,MCU-A,none,False,[],0,[]
+MCU-001330,MCU-A,none,False,[],0,[]
+MCU-006358,MCU-B,none,False,[],0,[]
+MCU-005487,MCU-A,none,False,[],0,[]
+MCU-003291,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-001557,MCU-A,none,False,[],0,[]
+MCU-007549,MCU-B,none,False,[],0,[]
+MCU-004299,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 65536, 'expected': 0}]"
+MCU-002992,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-003522,MCU-A,none,False,[],0,[]
+MCU-007682,MCU-C,none,False,[],0,[]
+MCU-006095,MCU-A,none,False,[],0,[]
+MCU-000186,MCU-A,none,False,[],0,[]
+MCU-006798,MCU-B,none,False,[],0,[]
+MCU-003501,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004010,MCU-A,none,False,[],0,[]
+MCU-008309,MCU-C,trim_field_corrupt,True,[],0,[]
+MCU-005693,MCU-A,none,False,[],0,[]
+MCU-002028,MCU-A,none,False,[],0,[]
+MCU-000318,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-004276,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 117, 'expected': 255}]"
+MCU-002461,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-003006,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-002810,MCU-A,none,False,[],0,[]
+MCU-002701,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 1, 'expected': 0}]"
+MCU-002044,MCU-A,none,False,[],0,[]
+MCU-002950,MCU-A,none,False,[],0,[]
+MCU-002999,MCU-A,none,False,[],0,[]
+MCU-007263,MCU-B,none,False,[],0,[]
+MCU-008058,MCU-C,none,False,[],0,[]
+MCU-001313,MCU-A,none,False,[],0,[]
+MCU-003675,MCU-A,none,False,[],0,[]
+MCU-000404,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006222,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-007103,MCU-B,none,False,[],0,[]
+MCU-002887,MCU-A,none,False,[],0,[]
+MCU-007860,MCU-C,none,False,[],0,[]
+MCU-003437,MCU-A,none,False,[],0,[]
+MCU-005152,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006725,MCU-B,none,False,[],0,[]
+MCU-006084,MCU-A,none,False,[],0,[]
+MCU-008347,MCU-C,none,False,[],0,[]
+MCU-001299,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-008016,MCU-C,trim_field_corrupt,True,[],0,[]
+MCU-002465,MCU-A,none,False,[],0,[]
+MCU-004248,MCU-A,none,False,[],0,[]
+MCU-006192,MCU-A,none,False,[],0,[]
+MCU-002317,MCU-A,none,False,[],0,[]
+MCU-003423,MCU-A,none,False,[],0,[]
+MCU-001908,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 165, 'expected': 255}]"
+MCU-003377,MCU-A,none,False,[],0,[]
+MCU-001007,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000340,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-003623,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001082,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-004350,MCU-A,none,False,[],0,[]
+MCU-002826,MCU-A,none,False,[],0,[]
+MCU-001670,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-006205,MCU-A,none,False,[],0,[]
+MCU-004832,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-005509,MCU-A,none,False,[],0,[]
+MCU-000818,MCU-A,none,False,[],0,[]
+MCU-000560,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007007,MCU-B,none,False,[],0,[]
+MCU-007460,MCU-B,none,False,[],0,[]
+MCU-000699,MCU-A,none,False,[],0,[]
+MCU-001693,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-007222,MCU-B,none,False,[],0,[]
+MCU-002913,MCU-A,none,False,[],0,[]
+MCU-003841,MCU-A,none,False,[],0,[]
+MCU-008199,MCU-C,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 0, 'expected': 2}]"
+MCU-007587,MCU-C,none,False,[],0,[]
+MCU-001402,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007701,MCU-C,none,False,[],0,[]
+MCU-003890,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 115, 'expected': 255}]"
+MCU-004797,MCU-A,none,False,[],0,[]
+MCU-004546,MCU-A,none,False,[],0,[]
+MCU-004300,MCU-A,none,False,[],0,[]
+MCU-004671,MCU-A,none,False,[],0,[]
+MCU-005824,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004634,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 93, 'expected': 255}]"
+MCU-000740,MCU-A,none,False,[],0,[]
+MCU-004913,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 122, 'expected': 255}]"
+MCU-001699,MCU-A,none,False,[],0,[]
+MCU-001458,MCU-A,none,False,[],0,[]
+MCU-003505,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007153,MCU-B,none,False,[],0,[]
+MCU-007870,MCU-C,none,False,[],0,[]
+MCU-001229,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 50, 'expected': 255}]"
+MCU-004971,MCU-A,none,False,[],0,[]
+MCU-008101,MCU-C,none,False,[],0,[]
+MCU-005534,MCU-A,none,False,[],0,[]
+MCU-002276,MCU-A,none,False,[],0,[]
+MCU-003987,MCU-A,none,False,[],0,[]
+MCU-001450,MCU-A,none,False,[],0,[]
+MCU-004364,MCU-A,none,False,[],0,[]
+MCU-002475,MCU-A,none,False,[],0,[]
+MCU-004638,MCU-A,none,False,[],0,[]
+MCU-000717,MCU-A,none,False,[],0,[]
+MCU-003027,MCU-A,none,False,[],0,[]
+MCU-006996,MCU-B,none,False,[],0,[]
+MCU-000811,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 4, 'expected': 0}]"
+MCU-007258,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-003527,MCU-A,none,False,[],0,[]
+MCU-003727,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-002726,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 65536, 'expected': 0}]"
+MCU-000357,MCU-A,none,False,[],0,[]
+MCU-002821,MCU-A,none,False,[],0,[]
+MCU-005159,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-001643,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-005307,MCU-A,none,False,[],0,[]
+MCU-001638,MCU-A,none,False,[],0,[]
+MCU-006819,MCU-B,none,False,[],0,[]
+MCU-002747,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 1, 'expected': 0}]"
+MCU-000695,MCU-A,none,False,[],0,[]
+MCU-000502,MCU-A,none,False,[],0,[]
+MCU-000842,MCU-A,none,False,[],0,[]
+MCU-001554,MCU-A,none,False,[],0,[]
+MCU-007120,MCU-B,none,False,[],0,[]
+MCU-000021,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001210,MCU-A,none,False,[],0,[]
+MCU-002141,MCU-A,none,False,[],0,[]
+MCU-003029,MCU-A,none,False,[],0,[]
+MCU-005871,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 32768, 'expected': 0}]"
+MCU-001375,MCU-A,none,False,[],0,[]
+MCU-007804,MCU-C,none,False,[],0,[]
+MCU-005635,MCU-A,none,False,[],0,[]
+MCU-008239,MCU-C,none,False,[],0,[]
+MCU-000828,MCU-A,none,False,[],0,[]
+MCU-002075,MCU-A,none,False,[],0,[]
+MCU-008300,MCU-C,none,False,[],0,[]
+MCU-004123,MCU-A,none,False,[],0,[]
+MCU-001586,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 65536, 'expected': 0}]"
+MCU-006258,MCU-A,none,False,[],0,[]
+MCU-007449,MCU-B,none,False,[],0,[]
+MCU-003936,MCU-A,none,False,[],0,[]
+MCU-007769,MCU-C,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004544,MCU-A,none,False,[],0,[]
+MCU-000775,MCU-A,none,False,[],0,[]
+MCU-000234,MCU-A,none,False,[],0,[]
+MCU-004340,MCU-A,none,False,[],0,[]
+MCU-000226,MCU-A,none,False,[],0,[]
+MCU-004872,MCU-A,none,False,[],0,[]
+MCU-005099,MCU-A,none,False,[],0,[]
+MCU-004621,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-000619,MCU-A,none,False,[],0,[]
+MCU-001604,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 57, 'expected': 255}]"
+MCU-001724,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 4096, 'expected': 0}]"
+MCU-005674,MCU-A,none,False,[],0,[]
+MCU-002630,MCU-A,none,False,[],0,[]
+MCU-006922,MCU-B,trim_field_corrupt,True,[],0,[]
+MCU-002604,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 143, 'expected': 255}]"
+MCU-004835,MCU-A,none,False,[],0,[]
+MCU-007550,MCU-B,none,False,[],0,[]
+MCU-006371,MCU-B,none,False,[],0,[]
+MCU-007054,MCU-B,none,False,[],0,[]
+MCU-000692,MCU-A,none,False,[],0,[]
+MCU-003433,MCU-A,none,False,[],0,[]
+MCU-005670,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-005529,MCU-A,none,False,[],0,[]
+MCU-004042,MCU-A,none,False,[],0,[]
+MCU-007856,MCU-C,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 65536, 'expected': 0}]"
+MCU-005293,MCU-A,none,False,[],0,[]
+MCU-007069,MCU-B,none,False,[],0,[]
+MCU-001987,MCU-A,none,False,[],0,[]
+MCU-002493,MCU-A,none,False,[],0,[]
+MCU-008154,MCU-C,none,False,[],0,[]
+MCU-003003,MCU-A,none,False,[],0,[]
+MCU-004011,MCU-A,none,False,[],0,[]
+MCU-001996,MCU-A,none,False,[],0,[]
+MCU-002676,MCU-A,none,False,[],0,[]
+MCU-000648,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-005707,MCU-A,none,False,[],0,[]
+MCU-007579,MCU-C,none,False,[],0,[]
+MCU-006686,MCU-B,none,False,[],0,[]
+MCU-008122,MCU-C,none,False,[],0,[]
+MCU-005806,MCU-A,none,False,[],0,[]
+MCU-004494,MCU-A,none,False,[],0,[]
+MCU-000794,MCU-A,none,False,[],0,[]
+MCU-003479,MCU-A,none,False,[],0,[]
+MCU-000377,MCU-A,none,False,[],0,[]
+MCU-004256,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006621,MCU-B,none,False,[],0,[]
+MCU-007463,MCU-B,none,False,[],0,[]
+MCU-005094,MCU-A,none,False,[],0,[]
+MCU-006225,MCU-A,none,False,[],0,[]
+MCU-008163,MCU-C,none,False,[],0,[]
+MCU-002382,MCU-A,none,False,[],0,[]
+MCU-006089,MCU-A,none,False,[],0,[]
+MCU-006432,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-005852,MCU-A,none,False,[],0,[]
+MCU-000524,MCU-A,none,False,[],0,[]
+MCU-004170,MCU-A,none,False,[],0,[]
+MCU-004869,MCU-A,none,False,[],0,[]
+MCU-005777,MCU-A,none,False,[],0,[]
+MCU-007191,MCU-B,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 171, 'expected': 63}]"
+MCU-003349,MCU-A,none,False,[],0,[]
+MCU-001901,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 4, 'expected': 0}]"
+MCU-003664,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000303,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 8, 'expected': 0}]"
+MCU-000752,MCU-A,none,False,[],0,[]
+MCU-005699,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 55, 'expected': 255}]"
+MCU-001395,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-005495,MCU-A,none,False,[],0,[]
+MCU-005022,MCU-A,none,False,[],0,[]
+MCU-001667,MCU-A,none,False,[],0,[]
+MCU-001654,MCU-A,none,False,[],0,[]
+MCU-001303,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 32768, 'expected': 0}]"
+MCU-003562,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-008266,MCU-C,none,False,[],0,[]
+MCU-005844,MCU-A,none,False,[],0,[]
+MCU-004426,MCU-A,none,False,[],0,[]
+MCU-008044,MCU-C,none,False,[],0,[]
+MCU-007373,MCU-B,none,False,[],0,[]
+MCU-007951,MCU-C,none,False,[],0,[]
+MCU-004615,MCU-A,none,False,[],0,[]
+MCU-000481,MCU-A,none,False,[],0,[]
+MCU-001173,MCU-A,none,False,[],0,[]
+MCU-001257,MCU-A,none,False,[],0,[]
+MCU-002924,MCU-A,none,False,[],0,[]
+MCU-002943,MCU-A,none,False,[],0,[]
+MCU-005652,MCU-A,none,False,[],0,[]
+MCU-003622,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-003264,MCU-A,none,False,[],0,[]
+MCU-006254,MCU-A,none,False,[],0,[]
+MCU-006981,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004764,MCU-A,none,False,[],0,[]
+MCU-000090,MCU-A,none,False,[],0,[]
+MCU-000679,MCU-A,none,False,[],0,[]
+MCU-002886,MCU-A,none,False,[],0,[]
+MCU-007172,MCU-B,none,False,[],0,[]
+MCU-005455,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000630,MCU-A,none,False,[],0,[]
+MCU-008280,MCU-C,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-008330,MCU-C,none,False,[],0,[]
+MCU-005809,MCU-A,none,False,[],0,[]
+MCU-008363,MCU-C,none,False,[],0,[]
+MCU-005585,MCU-A,none,False,[],0,[]
+MCU-003934,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 1048576, 'expected': 0}]"
+MCU-004252,MCU-A,none,False,[],0,[]
+MCU-007192,MCU-B,none,False,[],0,[]
+MCU-002458,MCU-A,none,False,[],0,[]
+MCU-005468,MCU-A,none,False,[],0,[]
+MCU-000966,MCU-A,none,False,[],0,[]
+MCU-006578,MCU-B,none,False,[],0,[]
+MCU-004898,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-007125,MCU-B,none,False,[],0,[]
+MCU-004712,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007601,MCU-C,none,False,[],0,[]
+MCU-007972,MCU-C,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-008195,MCU-C,none,False,[],0,[]
+MCU-007977,MCU-C,none,False,[],0,[]
+MCU-002712,MCU-A,none,False,[],0,[]
+MCU-003482,MCU-A,none,False,[],0,[]
+MCU-002993,MCU-A,none,False,[],0,[]
+MCU-005922,MCU-A,none,False,[],0,[]
+MCU-006387,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000156,MCU-A,none,False,[],0,[]
+MCU-003311,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 16, 'expected': 0}]"
+MCU-007575,MCU-B,none,False,[],0,[]
+MCU-002223,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007905,MCU-C,none,False,[],0,[]
+MCU-007433,MCU-B,none,False,[],0,[]
+MCU-006418,MCU-B,none,False,[],0,[]
+MCU-003712,MCU-A,none,False,[],0,[]
+MCU-004771,MCU-A,none,False,[],0,[]
+MCU-003919,MCU-A,none,False,[],0,[]
+MCU-004499,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006561,MCU-B,none,False,[],0,[]
+MCU-008365,MCU-C,none,False,[],0,[]
+MCU-000004,MCU-A,none,False,[],0,[]
+MCU-004111,MCU-A,none,False,[],0,[]
+MCU-004371,MCU-A,none,False,[],0,[]
+MCU-007244,MCU-B,none,False,[],0,[]
+MCU-005861,MCU-A,none,False,[],0,[]
+MCU-007831,MCU-C,rdp_missing_automotive,True,['rdp_missing_automotive'],1,"[{'rule': 'RDP_mismatch', 'error_type': 'rdp_missing_automotive', 'actual': 0, 'expected': 1}]"
+MCU-003174,MCU-A,none,False,[],0,[]
+MCU-007053,MCU-B,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 132, 'expected': 63}]"
+MCU-007792,MCU-C,none,False,[],0,[]
+MCU-001183,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 12, 'expected': 255}]"
+MCU-007388,MCU-B,none,False,[],0,[]
+MCU-000022,MCU-A,none,False,[],0,[]
+MCU-003068,MCU-A,none,False,[],0,[]
+MCU-001596,MCU-A,none,False,[],0,[]
+MCU-002980,MCU-A,none,False,[],0,[]
+MCU-003895,MCU-A,none,False,[],0,[]
+MCU-005910,MCU-A,none,False,[],0,[]
+MCU-001645,MCU-A,none,False,[],0,[]
+MCU-008008,MCU-C,none,False,[],0,[]
+MCU-005840,MCU-A,none,False,[],0,[]
+MCU-005836,MCU-A,none,False,[],0,[]
+MCU-007566,MCU-B,none,False,[],0,[]
+MCU-002149,MCU-A,none,False,[],0,[]
+MCU-007009,MCU-B,none,False,[],0,[]
+MCU-006083,MCU-A,none,False,[],0,[]
+MCU-001167,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 65536, 'expected': 0}]"
+MCU-003836,MCU-A,none,False,[],0,[]
+MCU-001463,MCU-A,none,False,[],0,[]
+MCU-003076,MCU-A,none,False,[],0,[]
+MCU-002471,MCU-A,none,False,[],0,[]
+MCU-005733,MCU-A,none,False,[],0,[]
+MCU-001494,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-001790,MCU-A,none,False,[],0,[]
+MCU-000050,MCU-A,none,False,[],0,[]
+MCU-004017,MCU-A,none,False,[],0,[]
+MCU-003471,MCU-A,none,False,[],0,[]
+MCU-003785,MCU-A,none,False,[],0,[]
+MCU-003075,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 111, 'expected': 255}]"
+MCU-000995,MCU-A,none,False,[],0,[]
+MCU-006079,MCU-A,none,False,[],0,[]
+MCU-001016,MCU-A,none,False,[],0,[]
+MCU-006380,MCU-B,none,False,[],0,[]
+MCU-001048,MCU-A,none,False,[],0,[]
+MCU-000462,MCU-A,none,False,[],0,[]
+MCU-003434,MCU-A,none,False,[],0,[]
+MCU-007256,MCU-B,none,False,[],0,[]
+MCU-003780,MCU-A,none,False,[],0,[]
+MCU-007355,MCU-B,none,False,[],0,[]
+MCU-005600,MCU-A,none,False,[],0,[]
+MCU-000807,MCU-A,none,False,[],0,[]
+MCU-005121,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-003568,MCU-A,none,False,[],0,[]
+MCU-003614,MCU-A,none,False,[],0,[]
+MCU-001680,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 93, 'expected': 255}]"
+MCU-001892,MCU-A,none,False,[],0,[]
+MCU-005516,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-008305,MCU-C,none,False,[],0,[]
+MCU-005569,MCU-A,none,False,[],0,[]
+MCU-006094,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006243,MCU-A,none,False,[],0,[]
+MCU-006473,MCU-B,none,False,[],0,[]
+MCU-000878,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-002415,MCU-A,none,False,[],0,[]
+MCU-007145,MCU-B,none,False,[],0,[]
+MCU-008237,MCU-C,none,False,[],0,[]
+MCU-004344,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-005631,MCU-A,none,False,[],0,[]
+MCU-005149,MCU-A,none,False,[],0,[]
+MCU-005120,MCU-A,none,False,[],0,[]
+MCU-000716,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 16, 'expected': 0}]"
+MCU-004066,MCU-A,none,False,[],0,[]
+MCU-004553,MCU-A,none,False,[],0,[]
+MCU-005588,MCU-A,none,False,[],0,[]
+MCU-003172,MCU-A,none,False,[],0,[]
+MCU-003635,MCU-A,none,False,[],0,[]
+MCU-001716,MCU-A,none,False,[],0,[]
+MCU-006985,MCU-B,none,False,[],0,[]
+MCU-003016,MCU-A,none,False,[],0,[]
+MCU-000361,MCU-A,none,False,[],0,[]
+MCU-008224,MCU-C,none,False,[],0,[]
+MCU-005911,MCU-A,none,False,[],0,[]
+MCU-000768,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 45, 'expected': 255}]"
+MCU-001500,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 1024, 'expected': 0}]"
+MCU-004016,MCU-A,none,False,[],0,[]
+MCU-001951,MCU-A,none,False,[],0,[]
+MCU-006792,MCU-B,none,False,[],0,[]
+MCU-007416,MCU-B,none,False,[],0,[]
+MCU-000305,MCU-A,none,False,[],0,[]
+MCU-000525,MCU-A,none,False,[],0,[]
+MCU-004073,MCU-A,none,False,[],0,[]
+MCU-006844,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-005607,MCU-A,none,False,[],0,[]
+MCU-007511,MCU-B,none,False,[],0,[]
+MCU-005485,MCU-A,none,False,[],0,[]
+MCU-000974,MCU-A,none,False,[],0,[]
+MCU-007119,MCU-B,none,False,[],0,[]
+MCU-003773,MCU-A,none,False,[],0,[]
+MCU-003464,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-002504,MCU-A,none,False,[],0,[]
+MCU-005091,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 249, 'expected': 255}]"
+MCU-008219,MCU-C,none,False,[],0,[]
+MCU-006343,MCU-B,none,False,[],0,[]
+MCU-000250,MCU-A,none,False,[],0,[]
+MCU-001246,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 240, 'expected': 255}]"
+MCU-003951,MCU-A,none,False,[],0,[]
+MCU-000243,MCU-A,none,False,[],0,[]
+MCU-005328,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004542,MCU-A,none,False,[],0,[]
+MCU-003973,MCU-A,none,False,[],0,[]
+MCU-001734,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004379,MCU-A,none,False,[],0,[]
+MCU-007482,MCU-B,none,False,[],0,[]
+MCU-007121,MCU-B,none,False,[],0,[]
+MCU-000240,MCU-A,none,False,[],0,[]
+MCU-003719,MCU-A,none,False,[],0,[]
+MCU-003394,MCU-A,none,False,[],0,[]
+MCU-000105,MCU-A,none,False,[],0,[]
+MCU-008376,MCU-C,none,False,[],0,[]
+MCU-000901,MCU-A,none,False,[],0,[]
+MCU-007989,MCU-C,none,False,[],0,[]
+MCU-000187,MCU-A,none,False,[],0,[]
+MCU-005031,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-003880,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002089,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 512, 'expected': 0}]"
+MCU-007538,MCU-B,none,False,[],0,[]
+MCU-002263,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000511,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004003,MCU-A,none,False,[],0,[]
+MCU-005524,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 201, 'expected': 255}]"
+MCU-000687,MCU-A,none,False,[],0,[]
+MCU-004172,MCU-A,none,False,[],0,[]
+MCU-004480,MCU-A,none,False,[],0,[]
+MCU-001797,MCU-A,none,False,[],0,[]
+MCU-002373,MCU-A,none,False,[],0,[]
+MCU-005066,MCU-A,none,False,[],0,[]
+MCU-007036,MCU-B,none,False,[],0,[]
+MCU-005019,MCU-A,none,False,[],0,[]
+MCU-007993,MCU-C,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 8192, 'expected': 0}]"
+MCU-006847,MCU-B,none,False,[],0,[]
+MCU-008046,MCU-C,none,False,[],0,[]
+MCU-002107,MCU-A,none,False,[],0,[]
+MCU-001704,MCU-A,none,False,[],0,[]
+MCU-003168,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004201,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 251, 'expected': 255}]"
+MCU-007458,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006416,MCU-B,none,False,[],0,[]
+MCU-003937,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004313,MCU-A,none,False,[],0,[]
+MCU-005868,MCU-A,none,False,[],0,[]
+MCU-004308,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-004689,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-003298,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-005739,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 222, 'expected': 255}]"
+MCU-006577,MCU-B,none,False,[],0,[]
+MCU-001977,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 24, 'expected': 255}]"
+MCU-000415,MCU-A,none,False,[],0,[]
+MCU-006640,MCU-B,none,False,[],0,[]
+MCU-002707,MCU-A,none,False,[],0,[]
+MCU-003198,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 134, 'expected': 255}]"
+MCU-007646,MCU-C,none,False,[],0,[]
+MCU-001863,MCU-A,none,False,[],0,[]
+MCU-002618,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 157, 'expected': 255}]"
+MCU-006672,MCU-B,none,False,[],0,[]
+MCU-005459,MCU-A,none,False,[],0,[]
+MCU-005747,MCU-A,none,False,[],0,[]
+MCU-003378,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-003814,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 4096, 'expected': 0}]"
+MCU-000787,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002364,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 146, 'expected': 255}]"
+MCU-002176,MCU-A,none,False,[],0,[]
+MCU-007200,MCU-B,none,False,[],0,[]
+MCU-007573,MCU-B,none,False,[],0,[]
+MCU-007063,MCU-B,none,False,[],0,[]
+MCU-007840,MCU-C,none,False,[],0,[]
+MCU-006082,MCU-A,none,False,[],0,[]
+MCU-007785,MCU-C,trim_field_corrupt,True,[],0,[]
+MCU-001220,MCU-A,none,False,[],0,[]
+MCU-005393,MCU-A,none,False,[],0,[]
+MCU-001355,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001062,MCU-A,none,False,[],0,[]
+MCU-004900,MCU-A,none,False,[],0,[]
+MCU-005005,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 79, 'expected': 255}]"
+MCU-000704,MCU-A,none,False,[],0,[]
+MCU-003497,MCU-A,none,False,[],0,[]
+MCU-001701,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002664,MCU-A,none,False,[],0,[]
+MCU-003669,MCU-A,none,False,[],0,[]
+MCU-002291,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 2, 'expected': 0}]"
+MCU-006400,MCU-B,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 1, 'expected': 0}]"
+MCU-004985,MCU-A,none,False,[],0,[]
+MCU-002196,MCU-A,none,False,[],0,[]
+MCU-006303,MCU-A,none,False,[],0,[]
+MCU-005658,MCU-A,none,False,[],0,[]
+MCU-001528,MCU-A,none,False,[],0,[]
+MCU-006195,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 8192, 'expected': 0}]"
+MCU-000489,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 131072, 'expected': 0}]"
+MCU-002505,MCU-A,none,False,[],0,[]
+MCU-001966,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-003351,MCU-A,none,False,[],0,[]
+MCU-007741,MCU-C,none,False,[],0,[]
+MCU-002606,MCU-A,none,False,[],0,[]
+MCU-003581,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 524288, 'expected': 0}]"
+MCU-003900,MCU-A,none,False,[],0,[]
+MCU-007546,MCU-B,none,False,[],0,[]
+MCU-002481,MCU-A,none,False,[],0,[]
+MCU-002191,MCU-A,none,False,[],0,[]
+MCU-003487,MCU-A,none,False,[],0,[]
+MCU-000909,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-003838,MCU-A,none,False,[],0,[]
+MCU-000364,MCU-A,none,False,[],0,[]
+MCU-000821,MCU-A,none,False,[],0,[]
+MCU-005760,MCU-A,none,False,[],0,[]
+MCU-001988,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004926,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-008006,MCU-C,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 0, 'expected': 2}]"
+MCU-007837,MCU-C,none,False,[],0,[]
+MCU-004001,MCU-A,none,False,[],0,[]
+MCU-007302,MCU-B,none,False,[],0,[]
+MCU-003467,MCU-A,none,False,[],0,[]
+MCU-002552,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002301,MCU-A,none,False,[],0,[]
+MCU-000265,MCU-A,none,False,[],0,[]
+MCU-002875,MCU-A,none,False,[],0,[]
+MCU-004403,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 524288, 'expected': 0}]"
+MCU-003992,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-005264,MCU-A,none,False,[],0,[]
+MCU-001289,MCU-A,none,False,[],0,[]
+MCU-006714,MCU-B,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 128, 'expected': 0}]"
+MCU-004061,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004562,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 182, 'expected': 255}]"
+MCU-006349,MCU-B,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 1, 'expected': 0}]"
+MCU-005424,MCU-A,none,False,[],0,[]
+MCU-005804,MCU-A,none,False,[],0,[]
+MCU-004383,MCU-A,none,False,[],0,[]
+MCU-004700,MCU-A,none,False,[],0,[]
+MCU-005896,MCU-A,none,False,[],0,[]
+MCU-007016,MCU-B,trim_field_corrupt,True,[],0,[]
+MCU-001118,MCU-A,none,False,[],0,[]
+MCU-005681,MCU-A,none,False,[],0,[]
+MCU-002670,MCU-A,none,False,[],0,[]
+MCU-000235,MCU-A,none,False,[],0,[]
+MCU-006171,MCU-A,none,False,[],0,[]
+MCU-003400,MCU-A,none,False,[],0,[]
+MCU-003081,MCU-A,none,False,[],0,[]
+MCU-007789,MCU-C,none,False,[],0,[]
+MCU-001445,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 82, 'expected': 255}]"
+MCU-002646,MCU-A,none,False,[],0,[]
+MCU-005422,MCU-A,none,False,[],0,[]
+MCU-007711,MCU-C,none,False,[],0,[]
+MCU-001721,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-001448,MCU-A,none,False,[],0,[]
+MCU-005834,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-000655,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-001453,MCU-A,none,False,[],0,[]
+MCU-002002,MCU-A,none,False,[],0,[]
+MCU-005288,MCU-A,none,False,[],0,[]
+MCU-006049,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 93, 'expected': 255}]"
+MCU-000961,MCU-A,none,False,[],0,[]
+MCU-000345,MCU-A,none,False,[],0,[]
+MCU-008362,MCU-C,none,False,[],0,[]
+MCU-001200,MCU-A,none,False,[],0,[]
+MCU-000626,MCU-A,none,False,[],0,[]
+MCU-006336,MCU-B,none,False,[],0,[]
+MCU-004526,MCU-A,none,False,[],0,[]
+MCU-004522,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-003078,MCU-A,none,False,[],0,[]
+MCU-006875,MCU-B,none,False,[],0,[]
+MCU-007832,MCU-C,none,False,[],0,[]
+MCU-002566,MCU-A,none,False,[],0,[]
+MCU-004953,MCU-A,none,False,[],0,[]
+MCU-002734,MCU-A,none,False,[],0,[]
+MCU-002872,MCU-A,none,False,[],0,[]
+MCU-005797,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-006647,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004476,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 230, 'expected': 255}]"
+MCU-003474,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007649,MCU-C,none,False,[],0,[]
+MCU-004152,MCU-A,none,False,[],0,[]
+MCU-006497,MCU-B,none,False,[],0,[]
+MCU-005395,MCU-A,none,False,[],0,[]
+MCU-000233,MCU-A,none,False,[],0,[]
+MCU-007270,MCU-B,none,False,[],0,[]
+MCU-005772,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-003041,MCU-A,none,False,[],0,[]
+MCU-007144,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-003232,MCU-A,none,False,[],0,[]
+MCU-002512,MCU-A,none,False,[],0,[]
+MCU-006778,MCU-B,none,False,[],0,[]
+MCU-000268,MCU-A,none,False,[],0,[]
+MCU-000819,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 209, 'expected': 255}]"
+MCU-007350,MCU-B,none,False,[],0,[]
+MCU-000202,MCU-A,none,False,[],0,[]
+MCU-005263,MCU-A,none,False,[],0,[]
+MCU-002550,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-003784,MCU-A,none,False,[],0,[]
+MCU-005100,MCU-A,none,False,[],0,[]
+MCU-000343,MCU-A,none,False,[],0,[]
+MCU-007365,MCU-B,none,False,[],0,[]
+MCU-004994,MCU-A,none,False,[],0,[]
+MCU-005647,MCU-A,none,False,[],0,[]
+MCU-003755,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-001161,MCU-A,none,False,[],0,[]
+MCU-007342,MCU-B,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 256, 'expected': 0}]"
+MCU-006731,MCU-B,none,False,[],0,[]
+MCU-002425,MCU-A,none,False,[],0,[]
+MCU-006366,MCU-B,none,False,[],0,[]
+MCU-000182,MCU-A,none,False,[],0,[]
+MCU-006553,MCU-B,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 1, 'expected': 0}]"
+MCU-003810,MCU-A,none,False,[],0,[]
+MCU-001620,MCU-A,none,False,[],0,[]
+MCU-000465,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-002793,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 8192, 'expected': 0}]"
+MCU-003357,MCU-A,none,False,[],0,[]
+MCU-005722,MCU-A,none,False,[],0,[]
+MCU-000389,MCU-A,none,False,[],0,[]
+MCU-005140,MCU-A,none,False,[],0,[]
+MCU-007190,MCU-B,none,False,[],0,[]
+MCU-002804,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-005011,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 64, 'expected': 0}]"
+MCU-004575,MCU-A,none,False,[],0,[]
+MCU-002051,MCU-A,none,False,[],0,[]
+MCU-007118,MCU-B,none,False,[],0,[]
+MCU-005467,MCU-A,none,False,[],0,[]
+MCU-004069,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-002192,MCU-A,none,False,[],0,[]
+MCU-007875,MCU-C,none,False,[],0,[]
+MCU-000980,MCU-A,none,False,[],0,[]
+MCU-007950,MCU-C,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 0, 'expected': 2}]"
+MCU-004207,MCU-A,none,False,[],0,[]
+MCU-003372,MCU-A,none,False,[],0,[]
+MCU-001288,MCU-A,none,False,[],0,[]
+MCU-007138,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-003042,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 64, 'expected': 0}]"
+MCU-005423,MCU-A,none,False,[],0,[]
+MCU-006708,MCU-B,none,False,[],0,[]
+MCU-003710,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007666,MCU-C,none,False,[],0,[]
+MCU-008039,MCU-C,rdp_missing_automotive,True,['rdp_missing_automotive'],1,"[{'rule': 'RDP_mismatch', 'error_type': 'rdp_missing_automotive', 'actual': 0, 'expected': 1}]"
+MCU-004823,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007414,MCU-B,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 1, 'expected': 0}]"
+MCU-003862,MCU-A,none,False,[],0,[]
+MCU-006474,MCU-B,none,False,[],0,[]
+MCU-004463,MCU-A,none,False,[],0,[]
+MCU-007938,MCU-C,none,False,[],0,[]
+MCU-002944,MCU-A,none,False,[],0,[]
+MCU-002009,MCU-A,none,False,[],0,[]
+MCU-001275,MCU-A,none,False,[],0,[]
+MCU-006905,MCU-B,none,False,[],0,[]
+MCU-007219,MCU-B,none,False,[],0,[]
+MCU-000616,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000944,MCU-A,none,False,[],0,[]
+MCU-006639,MCU-B,none,False,[],0,[]
+MCU-005883,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 206, 'expected': 255}]"
+MCU-007128,MCU-B,none,False,[],0,[]
+MCU-003764,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-003247,MCU-A,none,False,[],0,[]
+MCU-006067,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-004603,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 524288, 'expected': 0}]"
+MCU-005221,MCU-A,none,False,[],0,[]
+MCU-006135,MCU-A,none,False,[],0,[]
+MCU-005818,MCU-A,none,False,[],0,[]
+MCU-001110,MCU-A,none,False,[],0,[]
+MCU-000350,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-007510,MCU-B,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 65, 'expected': 63}]"
+MCU-001884,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-006785,MCU-B,none,False,[],0,[]
+MCU-000194,MCU-A,none,False,[],0,[]
+MCU-000873,MCU-A,none,False,[],0,[]
+MCU-004227,MCU-A,none,False,[],0,[]
+MCU-002884,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001671,MCU-A,none,False,[],0,[]
+MCU-007188,MCU-B,none,False,[],0,[]
+MCU-006279,MCU-A,none,False,[],0,[]
+MCU-006941,MCU-B,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 76, 'expected': 63}]"
+MCU-002131,MCU-A,none,False,[],0,[]
+MCU-004402,MCU-A,none,False,[],0,[]
+MCU-008207,MCU-C,none,False,[],0,[]
+MCU-002897,MCU-A,none,False,[],0,[]
+MCU-007969,MCU-C,none,False,[],0,[]
+MCU-000018,MCU-A,none,False,[],0,[]
+MCU-008243,MCU-C,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 0, 'expected': 2}]"
+MCU-000322,MCU-A,none,False,[],0,[]
+MCU-000424,MCU-A,none,False,[],0,[]
+MCU-004318,MCU-A,none,False,[],0,[]
+MCU-002561,MCU-A,none,False,[],0,[]
+MCU-002119,MCU-A,none,False,[],0,[]
+MCU-008103,MCU-C,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 256, 'expected': 0}]"
+MCU-000467,MCU-A,none,False,[],0,[]
+MCU-004365,MCU-A,none,False,[],0,[]
+MCU-006950,MCU-B,none,False,[],0,[]
+MCU-006000,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-000989,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002655,MCU-A,none,False,[],0,[]
+MCU-007933,MCU-C,none,False,[],0,[]
+MCU-000031,MCU-A,none,False,[],0,[]
+MCU-004525,MCU-A,none,False,[],0,[]
+MCU-001508,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 524288, 'expected': 0}]"
+MCU-004814,MCU-A,none,False,[],0,[]
+MCU-008151,MCU-C,none,False,[],0,[]
+MCU-000831,MCU-A,none,False,[],0,[]
+MCU-000410,MCU-A,none,False,[],0,[]
+MCU-000039,MCU-A,none,False,[],0,[]
+MCU-005953,MCU-A,none,False,[],0,[]
+MCU-005299,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001764,MCU-A,none,False,[],0,[]
+MCU-007882,MCU-C,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004583,MCU-A,none,False,[],0,[]
+MCU-004296,MCU-A,none,False,[],0,[]
+MCU-004443,MCU-A,none,False,[],0,[]
+MCU-006651,MCU-B,none,False,[],0,[]
+MCU-004375,MCU-A,none,False,[],0,[]
+MCU-002315,MCU-A,none,False,[],0,[]
+MCU-006238,MCU-A,none,False,[],0,[]
+MCU-005457,MCU-A,none,False,[],0,[]
+MCU-004359,MCU-A,none,False,[],0,[]
+MCU-003837,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002759,MCU-A,none,False,[],0,[]
+MCU-003954,MCU-A,none,False,[],0,[]
+MCU-002786,MCU-A,none,False,[],0,[]
+MCU-007384,MCU-B,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 250, 'expected': 63}]"
+MCU-004668,MCU-A,none,False,[],0,[]
+MCU-007867,MCU-C,none,False,[],0,[]
+MCU-003596,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-008417,MCU-C,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006419,MCU-B,none,False,[],0,[]
+MCU-000598,MCU-A,none,False,[],0,[]
+MCU-000071,MCU-A,none,False,[],0,[]
+MCU-007420,MCU-B,none,False,[],0,[]
+MCU-002230,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-000779,MCU-A,none,False,[],0,[]
+MCU-006301,MCU-A,none,False,[],0,[]
+MCU-004945,MCU-A,none,False,[],0,[]
+MCU-006655,MCU-B,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 1, 'expected': 0}]"
+MCU-004253,MCU-A,none,False,[],0,[]
+MCU-007180,MCU-B,none,False,[],0,[]
+MCU-005821,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 1024, 'expected': 0}]"
+MCU-004840,MCU-A,none,False,[],0,[]
+MCU-002290,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 214, 'expected': 255}]"
+MCU-000761,MCU-A,none,False,[],0,[]
+MCU-005179,MCU-A,none,False,[],0,[]
+MCU-003502,MCU-A,none,False,[],0,[]
+MCU-004518,MCU-A,none,False,[],0,[]
+MCU-002118,MCU-A,none,False,[],0,[]
+MCU-000809,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-007851,MCU-C,none,False,[],0,[]
+MCU-002319,MCU-A,none,False,[],0,[]
+MCU-000845,MCU-A,none,False,[],0,[]
+MCU-000393,MCU-A,none,False,[],0,[]
+MCU-007529,MCU-B,none,False,[],0,[]
+MCU-000668,MCU-A,none,False,[],0,[]
+MCU-004631,MCU-A,none,False,[],0,[]
+MCU-004137,MCU-A,none,False,[],0,[]
+MCU-007814,MCU-C,trim_field_corrupt,True,[],0,[]
+MCU-004752,MCU-A,none,False,[],0,[]
+MCU-001362,MCU-A,none,False,[],0,[]
+MCU-000255,MCU-A,none,False,[],0,[]
+MCU-006435,MCU-B,none,False,[],0,[]
+MCU-002322,MCU-A,none,False,[],0,[]
+MCU-001471,MCU-A,none,False,[],0,[]
+MCU-006998,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002975,MCU-A,none,False,[],0,[]
+MCU-003059,MCU-A,none,False,[],0,[]
+MCU-006057,MCU-A,none,False,[],0,[]
+MCU-000529,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-005997,MCU-A,none,False,[],0,[]
+MCU-000339,MCU-A,none,False,[],0,[]
+MCU-000957,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-005162,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 230, 'expected': 255}]"
+MCU-004116,MCU-A,none,False,[],0,[]
+MCU-000227,MCU-A,none,False,[],0,[]
+MCU-005392,MCU-A,none,False,[],0,[]
+MCU-000674,MCU-A,none,False,[],0,[]
+MCU-006574,MCU-B,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007126,MCU-B,none,False,[],0,[]
+MCU-007333,MCU-B,none,False,[],0,[]
+MCU-007473,MCU-B,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 22, 'expected': 63}]"
+MCU-003759,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-005577,MCU-A,none,False,[],0,[]
+MCU-007111,MCU-B,trim_field_corrupt,True,[],0,[]
+MCU-004974,MCU-A,none,False,[],0,[]
+MCU-001747,MCU-A,none,False,[],0,[]
+MCU-005123,MCU-A,none,False,[],0,[]
+MCU-007233,MCU-B,none,False,[],0,[]
+MCU-002258,MCU-A,none,False,[],0,[]
+MCU-005440,MCU-A,none,False,[],0,[]
+MCU-002889,MCU-A,none,False,[],0,[]
+MCU-004293,MCU-A,none,False,[],0,[]
+MCU-005000,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-000767,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006824,MCU-B,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 220, 'expected': 63}]"
+MCU-007669,MCU-C,trim_field_corrupt,True,[],0,[]
+MCU-000899,MCU-A,none,False,[],0,[]
+MCU-001501,MCU-A,none,False,[],0,[]
+MCU-008135,MCU-C,none,False,[],0,[]
+MCU-000447,MCU-A,none,False,[],0,[]
+MCU-000014,MCU-A,none,False,[],0,[]
+MCU-004267,MCU-A,none,False,[],0,[]
+MCU-001434,MCU-A,none,False,[],0,[]
+MCU-001634,MCU-A,none,False,[],0,[]
+MCU-003514,MCU-A,none,False,[],0,[]
+MCU-004176,MCU-A,none,False,[],0,[]
+MCU-006177,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 126, 'expected': 255}]"
+MCU-002752,MCU-A,none,False,[],0,[]
+MCU-000640,MCU-A,none,False,[],0,[]
+MCU-003194,MCU-A,none,False,[],0,[]
+MCU-004796,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-003337,MCU-A,none,False,[],0,[]
+MCU-004332,MCU-A,none,False,[],0,[]
+MCU-000009,MCU-A,none,False,[],0,[]
+MCU-005876,MCU-A,none,False,[],0,[]
+MCU-005908,MCU-A,none,False,[],0,[]
+MCU-004967,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 191, 'expected': 255}]"
+MCU-001831,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-008288,MCU-C,none,False,[],0,[]
+MCU-000258,MCU-A,none,False,[],0,[]
+MCU-003452,MCU-A,none,False,[],0,[]
+MCU-005071,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007679,MCU-C,none,False,[],0,[]
+MCU-001226,MCU-A,none,False,[],0,[]
+MCU-004228,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-004868,MCU-A,none,False,[],0,[]
+MCU-007434,MCU-B,none,False,[],0,[]
+MCU-001012,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-000860,MCU-A,none,False,[],0,[]
+MCU-002213,MCU-A,none,False,[],0,[]
+MCU-002516,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 256, 'expected': 0}]"
+MCU-004556,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 16, 'expected': 0}]"
+MCU-001137,MCU-A,none,False,[],0,[]
+MCU-002261,MCU-A,none,False,[],0,[]
+MCU-003859,MCU-A,none,False,[],0,[]
+MCU-000026,MCU-A,none,False,[],0,[]
+MCU-007008,MCU-B,none,False,[],0,[]
+MCU-003300,MCU-A,none,False,[],0,[]
+MCU-007226,MCU-B,none,False,[],0,[]
+MCU-007886,MCU-C,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 199, 'expected': 255}]"
+MCU-002682,MCU-A,none,False,[],0,[]
+MCU-005076,MCU-A,none,False,[],0,[]
+MCU-002245,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002577,MCU-A,none,False,[],0,[]
+MCU-001174,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-005189,MCU-A,none,False,[],0,[]
+MCU-003705,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006540,MCU-B,none,False,[],0,[]
+MCU-002452,MCU-A,none,False,[],0,[]
+MCU-007324,MCU-B,none,False,[],0,[]
+MCU-000334,MCU-A,trim_field_corrupt,True,[],0,[]
+MCU-001459,MCU-A,none,False,[],0,[]
+MCU-002775,MCU-A,none,False,[],0,[]
+MCU-001875,MCU-A,none,False,[],0,[]
+MCU-007185,MCU-B,none,False,[],0,[]
+MCU-004641,MCU-A,none,False,[],0,[]
+MCU-003988,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-001569,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 80, 'expected': 255}]"
+MCU-004801,MCU-A,none,False,[],0,[]
+MCU-007640,MCU-C,none,False,[],0,[]
+MCU-004163,MCU-A,none,False,[],0,[]
+MCU-003159,MCU-A,none,False,[],0,[]
+MCU-006557,MCU-B,none,False,[],0,[]
+MCU-001398,MCU-A,none,False,[],0,[]
+MCU-000573,MCU-A,none,False,[],0,[]
+MCU-006575,MCU-B,none,False,[],0,[]
+MCU-006015,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001380,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 1024, 'expected': 0}]"
+MCU-005819,MCU-A,none,False,[],0,[]
+MCU-007589,MCU-C,none,False,[],0,[]
+MCU-004635,MCU-A,none,False,[],0,[]
+MCU-008114,MCU-C,none,False,[],0,[]
+MCU-002522,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 2, 'expected': 255}]"
+MCU-002527,MCU-A,none,False,[],0,[]
+MCU-000324,MCU-A,none,False,[],0,[]
+MCU-004435,MCU-A,none,False,[],0,[]
+MCU-004458,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-000770,MCU-A,none,False,[],0,[]
+MCU-006335,MCU-B,none,False,[],0,[]
+MCU-004965,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-000108,MCU-A,none,False,[],0,[]
+MCU-004592,MCU-A,none,False,[],0,[]
+MCU-001993,MCU-A,none,False,[],0,[]
+MCU-002864,MCU-A,none,False,[],0,[]
+MCU-004589,MCU-A,none,False,[],0,[]
+MCU-003472,MCU-A,periph_mask_mismatch,True,['periph_mask_mismatch'],1,"[{'rule': 'PERIPH_EN_mismatch', 'error_type': 'periph_mask_mismatch', 'actual': 180, 'expected': 255}]"
+MCU-001182,MCU-A,none,False,[],0,[]
+MCU-004311,MCU-A,none,False,[],0,[]
+MCU-004303,MCU-A,none,False,[],0,[]
+MCU-003829,MCU-A,none,False,[],0,[]
+MCU-005961,MCU-A,none,False,[],0,[]
+MCU-000253,MCU-A,none,False,[],0,[]
+MCU-000991,MCU-A,none,False,[],0,[]
+MCU-001814,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001259,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007323,MCU-B,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 1048576, 'expected': 0}]"
+MCU-002879,MCU-A,none,False,[],0,[]
+MCU-004922,MCU-A,none,False,[],0,[]
+MCU-007289,MCU-B,none,False,[],0,[]
+MCU-004808,MCU-A,none,False,[],0,[]
+MCU-004903,MCU-A,none,False,[],0,[]
+MCU-001482,MCU-A,none,False,[],0,[]
+MCU-007630,MCU-C,none,False,[],0,[]
+MCU-007390,MCU-B,none,False,[],0,[]
+MCU-007047,MCU-B,none,False,[],0,[]
+MCU-004768,MCU-A,none,False,[],0,[]
+MCU-001153,MCU-A,none,False,[],0,[]
+MCU-008169,MCU-C,trim_field_corrupt,True,[],0,[]
+MCU-006748,MCU-B,none,False,[],0,[]
+MCU-000603,MCU-A,none,False,[],0,[]
+MCU-004490,MCU-A,none,False,[],0,[]
+MCU-005570,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-002407,MCU-A,none,False,[],0,[]
+MCU-008295,MCU-C,none,False,[],0,[]
+MCU-003254,MCU-A,none,False,[],0,[]
+MCU-003468,MCU-A,none,False,[],0,[]
+MCU-004988,MCU-A,none,False,[],0,[]
+MCU-008205,MCU-C,none,False,[],0,[]
+MCU-006262,MCU-A,none,False,[],0,[]
+MCU-003876,MCU-A,wrong_flash_size,True,['wrong_flash_size'],1,"[{'rule': 'FLASH_SIZE_mismatch', 'error_type': 'wrong_flash_size', 'actual': 2, 'expected': 1}]"
+MCU-001507,MCU-A,none,False,[],0,[]
+MCU-007895,MCU-C,none,False,[],0,[]
+MCU-004178,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-006796,MCU-B,none,False,[],0,[]
+MCU-005105,MCU-A,none,False,[],0,[]
+MCU-006793,MCU-B,none,False,[],0,[]
+MCU-007826,MCU-C,none,False,[],0,[]
+MCU-004354,MCU-A,none,False,[],0,[]
+MCU-000743,MCU-A,none,False,[],0,[]
+MCU-003019,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-001124,MCU-A,reserved_bit_set,True,['reserved_bit_set'],1,"[{'rule': 'RESERVED_must_be_zero', 'error_type': 'reserved_bit_set', 'actual': 2, 'expected': 0}]"
+MCU-003105,MCU-A,none,False,[],0,[]
+MCU-006088,MCU-A,none,False,[],0,[]
+MCU-000583,MCU-A,none,False,[],0,[]
+MCU-004998,MCU-A,none,False,[],0,[]
+MCU-002206,MCU-A,none,False,[],0,[]
+MCU-008337,MCU-C,none,False,[],0,[]
+MCU-003438,MCU-A,missing_debug_lock,True,['missing_debug_lock'],1,"[{'rule': 'DEBUG_LOCK_required', 'error_type': 'missing_debug_lock', 'actual': 0, 'expected': 1}]"
+MCU-007519,MCU-B,none,False,[],0,[]
+MCU-002351,MCU-A,none,False,[],0,[]
+MCU-002334,MCU-A,none,False,[],0,[]

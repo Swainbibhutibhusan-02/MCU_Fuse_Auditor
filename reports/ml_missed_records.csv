@@ -1,0 +1,12 @@
+die_id,derivative,fuse_map_hex,has_error,error_type
+MCU-007898,MCU-C,0x000007FF9022CFA8,True,trim_field_corrupt
+MCU-007432,MCU-B,0x0000023F10DA109B,True,trim_field_corrupt
+MCU-004926,MCU-A,0x000002FF5066765E,True,trim_field_corrupt
+MCU-000809,MCU-A,0x000002FF50866267,True,trim_field_corrupt
+MCU-004684,MCU-A,0x000002FF50961EA0,True,trim_field_corrupt
+MCU-003006,MCU-A,0x000002FF5042CAA7,True,trim_field_corrupt
+MCU-000334,MCU-A,0x000002FF504620A9,True,trim_field_corrupt
+MCU-007785,MCU-C,0x000007FF8FAEB362,True,trim_field_corrupt
+MCU-005797,MCU-A,0x000002FF504E34A2,True,trim_field_corrupt
+MCU-000465,MCU-A,0x000002FF508768A8,True,trim_field_corrupt
+MCU-005834,MCU-A,0x000002FF4FCA2166,True,trim_field_corrupt

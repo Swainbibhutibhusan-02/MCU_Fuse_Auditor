@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# Generated model files
+models/*.joblib
+models/*.pkl
+
+# Temporary files
+*.tmp
+
+# Python cache
+__pycache__/
+
+# Trained model (regenerate with src/train_model.py)
+models/*.joblib
