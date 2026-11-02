@@ -30,3 +30,4 @@ __pycache__/
 
 # Trained model (regenerate with src/train_model.py)
 models/*.joblib
+.pytest_cache/
