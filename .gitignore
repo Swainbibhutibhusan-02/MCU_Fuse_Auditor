@@ -18,16 +18,9 @@ env/
 .env
 .env.*
 
-# Generated model files
-models/*.joblib
-models/*.pkl
+# Generated model files and artifacts
+models/
+.pytest_cache/
 
 # Temporary files
 *.tmp
-
-# Python cache
-__pycache__/
-
-# Trained model (regenerate with src/train_model.py)
-models/*.joblib
-.pytest_cache/
